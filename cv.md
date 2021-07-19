@@ -14,6 +14,12 @@ My goal is to get skills in programming.
 * Html
 * Css
 
+## Code example
+```
+let s = "Оранжевый " + "апельсин";
+alert(s);
+```
+
 ## Work Experience
 * Belarusian Medical Academy of Postgraduate Education, __2016 - now__
   * Medical tourism specialist
