@@ -6,13 +6,15 @@
 
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color: rgb(214, 206, 195);
+    background-color: rgb(255, 255, 255);
 }
 
+.main {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
 
-pre { 
-    font-family: monospace;
-}
 
 figcaption {
     text-align: center;
@@ -29,12 +31,6 @@ figcaption {
 
 
 
-
-
-
-
-
-
 img {
     vertical-align: middle;
     border-style: none;
@@ -46,22 +42,19 @@ img {
 }
 
 
+.footer {
+    background-color: #d6e7eb;
+  }
 
-.list-n-decorated {
-    list-style: none;
+.footer-wrap {
     display: flex;
-    width: 50%;
-}
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 0 20px;
 
 
 
-
-.footer-wrap{
-    display: flex;
-    justify-content:center;
-}
-
-.footer-li{
-    list-style-type: none ;
-    font-weight: bold;
-}
+ 
